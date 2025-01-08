@@ -1,3 +1,3 @@
-FROM ubuntu:24.10
+FROM celtak/ubuntu-ping-ip
 RUN apt update
-RUN apt install -y iputils-ping iproute2
+RUN apt install -y nodejs
